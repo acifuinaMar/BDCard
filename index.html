@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños Sor Fátima!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="confetti-container"></div>
+    <div class="container">
+        <div class="card" id="birthdayCard">
+            <!-- Cara frontal - El sobre -->
+            <div class="front" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="cake-container">
+                        <div class="cake">
+                            <div class="cake-bottom"></div>
+                            <div class="cake-middle"></div>
+                            <div class="cake-top"></div>
+                            <!-- Chispas mágicas en lugar de vela -->
+                            <div class="sparkles">
+                                <div class="sparkle sparkle-1"></div>
+                                <div class="sparkle sparkle-2"></div>
+                                <div class="sparkle sparkle-3"></div>
+                                <div class="sparkle sparkle-4"></div>
+                                <div class="sparkle sparkle-5"></div>
+                            </div>
+                            <div class="decoration decoration-1"></div>
+                            <div class="decoration decoration-2"></div>
+                            <div class="decoration decoration-3"></div>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <p class="to">Para: <span>Hermana Sor Fátima</span></p>
+                        <p class="from">De: <span>Maryori</span></p>
+                    </div>
+                    <div class="instructions">¡Haz clic para abrir!</div>
+                </div>
+            </div>
+            
+            <!-- Cara trasera - La tarjeta -->
+            <div class="back">
+                <div class="card-content">
+                    <div class="message-container">
+                        <h1>¡Feliz Cumpleaños Hermana Sor Fátima!</h1>
+                        <div id="birthdayMessage" class="message-text">
+                            <p>Que Diosito la bendiga y la siga guiando siempre con su amor y sabiduría. Gracias por todo lo que nos enseña con su ejemplo y por el cariño que transmite en cada cosa que hace. La quiero muchote 💛</p>
+                            <br>
+                            <p>Con mucho cariño,</p>
+                            <p>Maryori</p>
+                        </div>
+                        <button onclick="closeCard()">Cerrar tarjeta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
